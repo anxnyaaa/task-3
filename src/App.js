@@ -3,24 +3,30 @@ import "./App.css"
 
 function App() {
   return (
-    // task 1 code
+    // task 2 code    
     <div className='container'>
       <div className='header'><h5>Header</h5></div>
-      <div className='hero'><h5>Hero</h5></div>
-      <div className='content'><h5>Content</h5></div>
-      <div className='sidebar'><h5>Sidebar</h5></div>
+      <div className='content'>
+        <div className='ib'><h5>Inbox etc.</h5></div>
+        <div className='list'><h5>Message list</h5></div>
+        <div className='msg'><h5>Message</h5></div>
+      </div>
       <div className='footer'><h5>Footer</h5></div>
     </div> 
+
     /*
     <div className='container'>
       <div className='header'></div>
-      <div className='hero'></div>
-      <div className='content'></div>
-      <div className='sidebar'></div>
+      <div className='content'>
+        <div className='ib'></div>
+        <div className='list'></div>
+        <div className='msg'></div>
+      </div>
       <div className='footer'></div>
-  </div>*/
+    </div> 
+    */   
 
-  // task 1 ends
+  // task 2 ends
   );
 }
 
