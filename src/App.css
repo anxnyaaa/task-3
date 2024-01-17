@@ -5,8 +5,7 @@
 
 .container {
   background-color: white;
-  position: relative;
-  
+  position: relative;  
   width: 300px;
   height: 700px;
   border: 1px solid black;
@@ -48,10 +47,47 @@
   margin: 5px 5px;
 }
 
+.header h5 {
+  text-align: left;
+  padding: 5px auto;
+  padding-bottom: 20px;
+  margin: 5px;
+  color: white;
+  background-color: rgb(0, 157, 230);
+}
 
+.hero h5 {
+  text-align: left;
+  padding: 0 auto;
+  padding-bottom: 70px;
+  margin: 5px;
+  color: white;
+  background-color: red;
+}
 
+.content h5 {
+  text-align: left;
+  padding: 0 auto;
+  padding-bottom: 150px;
+  margin: 5px;
+  color: white;
+  background-color: green;
+}
 
+.sidebar h5 {
+  text-align: left;
+  padding: 0 auto;
+  padding-bottom: 80px;
+  margin: 5px;
+  color: white;
+  background-color: rgb(107, 0, 230);
+}
 
-
-
-
+.footer h5 {
+  text-align: left;
+  padding: 0 auto;
+  padding-bottom: 20px;
+  margin: 5px;
+  color: white;
+  background-color: grey;
+}
