@@ -3,7 +3,7 @@ import "./App.css"
 
 function App() {
   return (
-    
+    // task 1 code
     <div className='container'>
       <div className='header'><h5>Header</h5></div>
       <div className='hero'><h5>Hero</h5></div>
@@ -19,7 +19,9 @@ function App() {
       <div className='sidebar'></div>
       <div className='footer'></div>
   </div>*/
-  )
+
+  // task 1 ends
+  );
 }
 
 export default App;
