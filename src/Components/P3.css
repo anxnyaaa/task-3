@@ -1,0 +1,55 @@
+/* task 3_P3 */
+*{
+    background-color: yellow;
+    max-width: 100%;
+  }
+  .b3 {
+    background-color: white;
+    margin: 50px auto 50px auto;
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    align-items: center;
+    gap: 80px;
+  }
+  
+  .b3 .sq1, .b3 .sq2 {
+    align-items: center;
+    margin: 30px 35px 50px 35px;
+    width: 225px;
+    height: 180px;
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  .b3 .sq1 .l1, .b3 .sq2 .l1{
+    background-color: white;
+    margin: 25px 50px 0 50px;
+    border: 2px solid black;
+  }
+  
+  .b3 .sq1 .rec, .b3 .sq2 .rec{
+    margin: 15px 3px 10px 3px;
+    width: 215px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid black;
+  }
+
+  .b3 .sq1 .l2, .b3 .sq2 .l2  {
+    background-color: white;
+    margin: 0px 50px 0 50px;
+    border: 2px solid black;
+  }
+
+  .b3 .sq1 .l3, .b3 .sq2 .l3{
+    background-color: white;
+    margin: 6px 10px 0 10px;
+    border: 2px solid black;
+  }  
+
+  
+
+  /* task 3_P3 done */

@@ -1,0 +1,46 @@
+/* task 3_P4 */
+*{
+    background-color: yellow;
+    max-width: 100%;
+  }
+  .b4 {
+    background-color: white;
+    margin: 50px auto 50px auto;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    align-items: center;
+  }
+
+  .b4 .l1, .b4 .l3 {
+    background-color: white;
+    margin: 25px 60px 0 60px;
+    border: 2px solid black;
+  }
+  
+  .img {
+    align-items: center;
+    position: relative;
+    margin: 40px 20px 35px 20px;
+    width: 255px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 40px;
+  }
+  .img .leave h5 {
+    text-align: center;
+    margin: 120px auto 0 auto;
+    border-top: 1px solid black;
+  }
+
+  .l2, .l4, .l5, .l6, .l7 {
+    background-color: white;
+    margin: 25px 20px 0 20px;
+    border: 2px solid black;
+  }  
+
+  /* task 3_P4 done */
+  
+ 

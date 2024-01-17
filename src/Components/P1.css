@@ -1,0 +1,51 @@
+/* task 3_P1 */
+*{
+    background-color: yellow;
+    max-width: 100%;
+  }
+  .b1 {
+    background-color: white;
+    margin: 50px auto 50px auto;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    align-items: center;
+  }
+  
+  .b1 .sq {
+    align-items: center;
+    margin: 25px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  .b1 .email {
+    margin: 15px;
+    margin-top: 32px;
+    width: 270px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+  }
+    
+  .b1 .pass , .b1 .box{
+    margin: 15px;
+    margin-top: 20px;
+    width: 270px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  h5 {
+    text-align: left;
+    font-size: 14pt;
+    padding: 0 auto;
+    margin: 7px 0 0 6px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+  }
+  /* task 3_P1 done */

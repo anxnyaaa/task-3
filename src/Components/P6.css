@@ -1,0 +1,58 @@
+/* task 3_P6 */
+*{
+    background-color: yellow;
+    max-width: 100%;
+  }
+  .b6 {
+    background-color: white;
+    margin: 50px auto 50px auto;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    align-items: center;
+  }
+
+  .t1 {
+    width: 400px;
+    height: 400px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .tick {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+  }  
+
+  .tick::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 3px;
+    background-color: #336699;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+
+.tick::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #336699;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+  
+
+  /* task 3_P6 done */
+  
+ 
