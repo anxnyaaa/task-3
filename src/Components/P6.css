@@ -14,18 +14,44 @@
   }
 
   .t1 {
-    width: 400px;
-    height: 400px;
-    background-color: #bbb;
+    margin: 80px 50px 20px 50px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
     border-radius: 50%;
     display: inline-block;
+    align-items: center;
   }
+
+  .tick { /*no rounded edges tick */
+    transform: rotate(45deg);
+    margin: 20px 65px auto 65px;
+    height: 120px;
+    width: 40px;
+    background-color: #000000;
+    border-bottom: 15px solid rgb(255, 255, 255);
+    border-right: 15px solid rgb(255, 255, 255);    
+  }
+
+  .saved {
+    text-align: center;
+    background-color: white;
+    font-weight: 600;
+    font-size: 18pt;
+  }
+
+/*
+  //tick, but had problems in positioning
 
   .tick {
     position: relative;
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    margin: auto 50px auto 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(189, 12, 12);
   }  
 
   .tick::before {
@@ -33,25 +59,26 @@
     left: 0;
     top: 50%;
     height: 50%;
-    width: 3px;
-    background-color: #336699;
+    width: 15px;
+    background-color: #ffffff;
     content: "";
     transform: translateX(10px) rotate(-45deg);
     transform-origin: left bottom;
-}
+  }
 
-.tick::after {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 100%;
-    background-color: #336699;
-    content: "";
-    transform: translateX(10px) rotate(-45deg);
-    transform-origin: left bottom;
-}
+  .tick::after {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 15px;
+      width: 100%;
+      background-color: #ffffff;
+      content: "";
+      transform: translateX(10px) rotate(-45deg);
+      transform-origin: left bottom;
+  }
   
+*/ 
 
   /* task 3_P6 done */
   

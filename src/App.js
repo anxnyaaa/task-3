@@ -15,6 +15,7 @@ function App() {
     <P3/>,
     <P4/>,
     <P5/>
+    <P6/>
     </>
   // task 3 ends
   );

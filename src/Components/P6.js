@@ -8,7 +8,8 @@ function P6() {
       <div className='b6'>
         <div className='t1' >
           <div className='tick' ></div>
-        </div>        
+        </div>
+        <div className='saved'>Saved</div>        
       </div>   
   // task 3_P6 ends
   );
